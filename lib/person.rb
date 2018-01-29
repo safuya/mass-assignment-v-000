@@ -1,9 +1,10 @@
 require 'pry'
 
 class Person
+  attr_reader :name
 
   def initialize(attributes)
-    binding.pry
+    
   end
 
 end
