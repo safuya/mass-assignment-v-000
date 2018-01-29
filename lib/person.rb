@@ -1,7 +1,7 @@
 require 'pry'
 
 class Person
-  attr_reader :name
+  attr_accessor :name
 
   def initialize(attributes)
     attributes.each { |key, value| self.send(("#{key}="), value) }
